@@ -1,10 +1,10 @@
 [project]
 name = "clix0"
-version = "0.1.0"
+version = "0.1.1"
 description = "A command-line interface for Twitter/X using cookie-based authentication"
 readme = "README.md"
 requires-python = ">=3.11"
-license = { text = "PolyForm-Noncommercial-1.0.0" }
+license = { text = "AGPL-3.0-or-later" }
 authors = [
     { name = "spideystreet", email = "dhicham.pro@gmail.com" },
 ]
