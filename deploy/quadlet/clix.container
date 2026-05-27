@@ -1,0 +1,12 @@
+[Unit]
+Description=Clix Twitter/X CLI container
+
+[Container]
+Image=ghcr.io/roxabi/clix:latest
+ContainerName=clix
+Entrypoint=/bin/sh
+Exec=-c "sleep infinity"
+Volume=%h/.roxabi/clix/config:/root/.config/clix:Z
+
+[Install]
+WantedBy=default.target
